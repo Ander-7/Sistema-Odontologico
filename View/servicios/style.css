@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header {
+    background: #986bfa9e;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1640px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    height: 80px;
+    margin: 10px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #fdb1ea;
+}
+
+.diente {
+    height: 600px;
+}
+
+.header-txt {
+    margin: 22px 20px;
+    text-align: center;
+}
+
+.header-txt h1 {
+    color: #986bfa9e;
+    font-size: 60px;
+}
+
+.header-txt p {
+    color: #515557;
+    font-size: 17px;
+}
+
+.box-container {
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.box {
+    border-top: 7px solid #986bfa9e;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: #f6fafb;
+}
+
+.box img {
+    height: 200px;
+}
+
+.products-txt h3 {
+    font-size: 20px;
+    color: #111419;
+    margin-bottom: 10px;
+}
+
+.product-txt p {
+    margin-bottom: 25px;
+    color: #515557;
+}
+
+input {
+    width: 100%;
+    max-width: 1100px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+}
+
+.btn-2, .btn-3 {
+    background-color: #986bfa9e;
+    margin-top: 50px;
+    display: inline-block;
+    padding: 11px 35px;
+    border-radius: 25px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-2:hover, .btn-3:hover {
+    background-color: #fdb1ea;
+}
+
+.footer{
+    background-color: #986bfa9e;
+    padding: 100px 240px;
+    margin: 50px 0 0 0;
+}
+.footer-content{
+    display:flex;
+    justify-content: space-between;
+}
+.link h3{
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.link a{
+    color: #dcdcdc;
+    display: block;
+    margin-bottom: 10px;
+}
+.link a:hover{
+    color: #fdb1ea;
+}

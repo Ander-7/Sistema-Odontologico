@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+*{
+    margin:0px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    
+    font-family: "Poppins", sans-serif;;
+}
+header{
+    background: #986BFA;
+    padding: 19px;
+    
+}
+.socials{
+    display: flex;
+    justify-content: flex-end;
+}
+.social{
+    margin: 0 10px;
+    height: 40px;
+    width: 40px;
+    border: 3px solid #7786F9;
+    border-radius: 50%;
+    background-color:#7786F9;
+    
+}
+.social img{
+    margin: 5px 0 0 8px;
+}
+
+
+
+.logoDentasy{
+    height: 190px;
+    margin: 55px;
+    margin-left: 10%;
+}
+.lema{
+    
+    font-size: 50px;
+    color: #986BFA;
+    font-weight: bold;
+    
+
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+
+}
+.container{
+    margin: 40px;
+    margin-right: 4px;
+}
+.doctora {
+   
+    
+    float: right;
+}
+.btn-1{
+    display: inline-block;
+    padding: 15px 35px;
+    border: 2px solid #8B77FA;
+    color: #8B77FA;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+   margin: 5px 10px 50px 50px;
+    border-radius: 50px;
+
+}
+
+.btn-1:hover{
+    background-color:  #8b77fa5a;
+    
+}
+footer{
+    background: #986BFA;
+    padding: 47px;
+    margin-top: 80px;
+    
+}
+
+@media (max-width: 768px) {
+    .socials {
+        justify-content: center;
+    }
+
+    .logoDentasy,
+    .doctora,
+    img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+
+    .lema {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .container {
+        margin: 20px;
+    }
+
+    .btn-1 {
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .socials {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social {
+        margin: 5px 0;
+    }
+
+    .logoDentasy,
+    .doctora,
+    img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+
+    .lema {
+        font-size: 24px;
+        margin: 10px;
+    }
+
+    p {
+        font-size: 16px;
+        margin: 10px;
+    }
+
+    footer {
+        padding: 30px;
+    }
+}
